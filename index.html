@@ -28,7 +28,7 @@
 
   }
 
-<style>
+</style>
 
 </head>
 
@@ -114,6 +114,64 @@ li a.active {
 }
 
 </style>
+
+<style>
+
+h2{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+  p{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid transparent;
+  width: calc(25% - 20px);
+}
+
+div.gallery-item:hover {
+  border: 1px solid black;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery-item {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.gallery-item {
+    width: calc(100% - 20px);
+  }
+}
+
+</style>
 </head>
 <body>
   <nav>
@@ -164,15 +222,37 @@ li a.active {
 
   <div>
     
-<h3 style="text-align:center; color: black;">Hello! Welcome to this website :)</h3>
+    <div class="gallery">
 
+      <div class="gallery-item">
+        <a href="https://ririsakura.github.io/art-74/">
+          <img src="night.png" alt="Night" width="600" height="400">
+        </a>
+        <div class="desc">Art-74</div>
+      </div>
+      
+      <div class="gallery-item">
+        <a href="https://ririsakura.github.io/art-109/">
+          <img src="ombre.png" alt="Ombre" width="600" height="400">
+        </a>
+        <div class="desc">Art-109 (incomplete)</div>
+      </div>
+      
+      <div class="gallery-item">
+        <a href="https://ririsakura.github.io/about.html">
+          <img src="grid.png" alt="Grid" width="600" height="400">
+        </a>
+        <div class="desc">About</div>
+      </div>
+      
+      <div class="gallery-item">
+        <a href="https://ririsakura.github.io/artwork.html">
+          <img src="dreamy.png" alt="Mountains" width="400" height="400">
+        </a>
+        <div class="desc">Artwork</div>
+      </div>
+      
 
-<h4 style="text-align:center; color: black"> It's still in progress as of now, so I'll be catching up and updating this website to the best of my ability 😭 </h4>
-
-<h4 style="text-align:center; color: black"> This should be updated better with more hyperlinked pages 🍰 </h4> 
-</div>
-
- 
  </header>
 
 
